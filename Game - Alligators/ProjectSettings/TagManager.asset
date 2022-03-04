@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - CardTag
+  - SoundManager
   layers:
   - Default
   - TransparentFX
@@ -13,6 +15,7 @@ TagManager:
   - UI
   - 
   - 
+  - Game
   - 
   - 
   - 
@@ -35,9 +38,14 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
+  - BG
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: HUD
+    uniqueID: 3104707179
+    locked: 0
+  - name: Game
+    uniqueID: 2303152145
     locked: 0
